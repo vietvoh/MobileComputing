@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="rain.weather.mobile.activity.WebViewActivity">
+<!--<item android:id="@+id/action_refresh"-->
+    <!--android:title="@string/action_refresh"-->
+    <!--android:orderInCategory="100"-->
+    <!--android:visible="true"-->
+    <!--android:icon="@drawable/ic_action_refresh"-->
+    <!--app:showAsAction="always" />-->
+    <item android:id="@+id/current_weather"
+    android:title="@string/current_weather" />
+
+    <item android:id="@+id/hourly_forecast"
+    android:title="@string/hourly_forecast"/>
+
+    <item android:id="@+id/extended_forecast"
+        android:title="@string/extended_forecast"/>
+
+    <item android:id="@+id/uv_index_forecast"
+        android:title="@string/uv_index_forecast"/>
+
+    <item android:id="@+id/day_night"
+        android:title="@string/day_night"/>
+
+    <item android:id="@+id/three_day_forecast"
+        android:title="@string/three_day_forecast"/>
+
+    <item android:id="@+id/weekend_forecast"
+        android:title="@string/weekend_forecast"/>
+
+    <item android:id="@+id/month_outlook"
+        android:title="@string/month_outlook"/>
+
+</menu>

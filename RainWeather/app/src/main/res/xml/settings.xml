@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:defaultValue="@string/refresh_rate_hour"-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_synchronization" android:key="preference_synchronization_settings">
+        <ListPreference
+            android:key="sync_every"
+            android:title="@string/sync_every"
+            android:entries="@array/refresh_rate_labels"
+            android:defaultValue="@string/refresh_rate_hour"
+            android:entryValues="@array/refresh_rate_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

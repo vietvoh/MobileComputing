@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">RainWeather</string>
+    <string name="action_refresh">Refresh</string>
+    <!--<string name="action_about">About</string>-->
+    <string name="action_detail">Detail</string>
+    <string name="action_settings">Settings</string>
+    <string name="precipitation_card_title">Precipitation</string>
+    <string name="web_view_activity">Weather</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
+
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings_sync_title">Synchronization</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="sync_every">Sync every</string>
+    <string name="preferences_synchronization">Synchronization</string>
+
+
+
+    <string name="current_weather">Current weather</string>
+    <string name="hourly_forecast">Hourly forecast</string>
+    <string name="extended_forecast">Extended forecast</string>
+    <string name="uv_index_forecast">UV Index forecast</string>
+    <string name="day_night">Day &amp; Night</string>
+    <string name="three_day_forecast">3 day forecast</string>
+    <string name="weekend_forecast">Weekend forecast</string>
+    <string name="month_outlook">Month outlook</string>
+
+</resources>

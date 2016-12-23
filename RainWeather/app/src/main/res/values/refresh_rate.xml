@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="refresh_rate_labels">
+        <item>@string/refresh_rate_15_minutes</item>
+        <item>@string/refresh_rate_half_hour</item>
+        <item>@string/refresh_rate_hour</item>
+        <item>@string/refresh_rate_half_day</item>
+        <item>@string/refresh_rate_day</item>
+    </string-array>
+
+    <string-array name="refresh_rate_values">
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>43200000</item>
+        <item>86400000</item>
+    </string-array>
+
+    <string name="refresh_rate_15_minutes">15 minutes</string>
+    <string name="refresh_rate_half_hour">30 minutes</string>
+    <string name="refresh_rate_hour">Hour</string>
+    <string name="refresh_rate_half_day">Half day</string>
+    <string name="refresh_rate_day">Day</string>
+</resources>
